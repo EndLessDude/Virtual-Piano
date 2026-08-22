@@ -5,6 +5,7 @@
    <title>Virtual Piano</title>
    <link rel="stylesheet" href="style.css">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="script.js" defer></script>
    <link rel="icon" href="pianologo.ico" type="image/x-icon">
 </head>
 <body> <!-- Body starts here -->
@@ -13,30 +14,30 @@
     <header>
         <h2>Virtual Piano</h2> <!-- The title that is visible on the website -->
         <div class="column volume-slider">
-            <span>Volume</span> <input type="range">
+            <span>Volume</span> <input type="range" min="0" max="1" value="0.5" step="any">
         </div>
         <div class="column showKeys-checkBox"> <!-- Show keys checkbox -->
             <span>Show Keys</span> <input type="checkbox" checked>
         </div>
     </header>
     <ul class="piano-keys"> <!-- Piano keys -->
-        <li class="key white"><span>q</span></li>
-        <li class="key black"><span>w</span></li>
-        <li class="key white"><span>e</span></li>
-        <li class="key black"><span>r</span></li>
-        <li class="key white"><span>t</span></li>
-        <li class="key black"><span>y</span></li>
-        <li class="key white"><span>u</span></li>
-        <li class="key black"><span>i</span></li>
-        <li class="key white"><span>o</span></li>
-        <li class="key black"><span>p</span></li>
-        <li class="key white"><span>a</span></li>
-        <li class="key black"><span>s</span></li>
-        <li class="key white"><span>d</span></li>
-        <li class="key black"><span>f</span></li>
-        <li class="key white"><span>g</span></li>
-        <li class="key black"><span>h</span></li>
-        <li class="key white"><span>j</span></li>
+        <li class="key white" data-key="key q"><span>q</span></li>
+        <li class="key black" data-key="key w"><span>w</span></li>
+        <li class="key white" data-key="key e"><span>e</span></li>
+        <li class="key black" data-key="key r"><span>r</span></li>
+        <li class="key white" data-key="key t"><span>t</span></li>
+        <li class="key white" data-key="key y"><span>y</span></li>
+        <li class="key black" data-key="key u"><span>u</span></li>
+        <li class="key white" data-key="key i"><span>i</span></li>
+        <li class="key black" data-key="key o"><span>o</span></li>
+        <li class="key white" data-key="key p"><span>p</span></li>
+        <li class="key black" data-key="key a"><span>a</span></li>
+        <li class="key white" data-key="key s"><span>s</span></li>
+        <li class="key white" data-key="key d"><span>d</span></li>
+        <li class="key black" data-key="key f"><span>f</span></li>
+        <li class="key white" data-key="key g"><span>g</span></li>
+        <li class="key black" data-key="key h"><span>h</span></li>
+        <li class="key white" data-key="key j"><span>j</span></li>
     </ul>
 </div>
 
