@@ -25,7 +25,7 @@ Virtual Piano is a piano that runs on your browser and can be played by using yo
 - **⌨️ Keyboard:** You can also play the piano by using the buttons on your keyboard witht he corresponding notes of the piano.
 - **🔉 Adjustable Volume Bar:** You can adjust the volume of the piano using the slider.
 - **🟠 Orange Keys:** Checking this box off makes your white keys orange.
-- **🎶 Try playing: Mary had a little lamb:** This gived used the notes shown on the piano's keys which are needed to play the famous song: Mary Had a Little Lamb.
+- **🎶 Try playing: Mary had a little lamb:** This given used the notes shown on the piano's keys which are needed to play the famous song: Mary Had a Little Lamb.
 
 ## 👩‍💻 Languages:
 
